@@ -1,0 +1,15 @@
+{
+  "bindings": [
+    {
+      "name": "queueItem",
+      "type": "serviceBusTrigger",
+      "direction": "in",
+      "queueName": "queue",
+      "connection": "ServiceBusConnection",
+      "autoComplete": false
+
+    }
+  ],
+
+  "route": "/"
+}
